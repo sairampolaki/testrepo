@@ -4,6 +4,7 @@
   <properties size='2'>
     <property name='p2.system' value='true'/>
     <property name='p2.timestamp' value='1491543941022'/>
+	<property name="dummy" value="dummy"/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
